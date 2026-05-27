@@ -176,7 +176,7 @@ Create `iam_detection.py`:
 ```python
 # Mapping IP to user identity
 users = {
-    "192.168.1.31": "Abhishek"
+    "192.168.1.31": "molito"
 }
 
 # Open Snort alert file
@@ -194,8 +194,8 @@ sudo python3 iam_detection.py
 
 **Sample output:**
 ```
-⚠️ Attack by Abhishek from IP 192.168.1.31
-⚠️ Attack by Abhishek from IP 192.168.1.31
+⚠️ Attack by molito from IP 192.168.1.31
+⚠️ Attack by molito from IP 192.168.1.31
 ```
 
 ### Step 8: Block the Attacker
